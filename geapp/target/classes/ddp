@@ -1,0 +1,13 @@
+1 pagina di ingresso
+1 servizio che inserisce le singole parole-significato (X)
+1 servizio che legge da un file un insieme di parole-significato (X)
+1 servizio che tira fuori n parole in modo randomico (X)
+1 servizio che date delle coppie parole-significato di input ritorna la correttezza di ognuna parola
+	e aggiorna su una tabella il tentativo e se è stato corretto o meno (X)
+1 servizio che restituisce le n parole più sbagliate con il relativo significato
+	(percentuale piu bassa tra le parole con almeno n tentativi. 
+	Si deve tener conto anche dei tentativi sbagliati)
+	
+	dog - cane 20% 10 tentativi --> soglia sopra n tentativi (X)
+	
+export delle parole del db
