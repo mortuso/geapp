@@ -1,0 +1,155 @@
+{
+	"info": {
+		"_postman_id": "270088ba-afe9-4982-8502-a8f0208499ba",
+		"name": "geapp",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "check-words",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "[ \n\t{\n\t  \"wName\" : \"many of whom blamed\",\n\t  \"meaning\" : \"molti dei quali colpevoli\"\n\t},{\n\t  \"wName\" : \"untimely\",\n\t  \"meaning\" : \"fuori dal tempo\"\n\t},{\n\t  \"wName\" : \"clue\",\n\t  \"meaning\" : \"indizio\"\n\t},{\n\t  \"wName\" : \"thin-skinned\",\n\t  \"meaning\" : \"permaloso\"\n\t},{\n\t  \"wName\" : \"roof\",\n\t  \"meaning\" : \"tetto\"\n\t},{\n\t  \"wName\" : \"urged\",\n\t  \"meaning\" : \"urgente\"\n\t},{\n\t  \"wName\" : \"sympathy\",\n\t  \"meaning\" : \"empatia\"\n\t},{\n\t  \"wName\" : \"charged\",\n\t  \"meaning\" : \"caricato\"\n\t},{\n\t  \"wName\" : \"outbreaks\",\n\t  \"meaning\" : \"non lo so\"\n\t},{\n\t  \"wName\" : \"bothers\",\n\t  \"meaning\" : \"entrambi\"\n\t}\n]"
+				},
+				"url": {
+					"raw": "localhost:9090/geapp/check-words",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"geapp",
+						"check-words"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "insert-words",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "[ {\r\n  \"wName\" : \"nome\",\r\n  \"meaning\" : \"significato\",\r\n  \"note\" : \"note\"\r\n}, {\r\n  \"wName\" : \"nome2\",\r\n  \"meaning\" : \"significato2\",\r\n  \"note\" : \"note2\"\r\n} ]"
+				},
+				"url": {
+					"raw": "localhost:9090/geapp/insert-words",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"geapp",
+						"insert-words"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "insert-words-from-file",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:9090/geapp/insert-words-from-file",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"geapp",
+						"insert-words-from-file"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "find-random-words",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "limit",
+							"value": "10",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:9090/geapp/find-random-words",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"geapp",
+						"find-random-words"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "performance",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "order",
+							"value": "desc",
+							"type": "text"
+						},
+						{
+							"key": "limit",
+							"value": "5",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:9090/geapp/performance",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"geapp",
+						"performance"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
