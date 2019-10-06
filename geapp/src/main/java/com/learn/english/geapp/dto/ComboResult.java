@@ -4,6 +4,7 @@ public class ComboResult {
 	
 	private String wName;
 	private String meaning;
+	private String note;
 	private Integer percent;
 	private Integer attempts;
 	
@@ -30,5 +31,11 @@ public class ComboResult {
 	}
 	public void setAttempts(Integer attempts) {
 		this.attempts = attempts;
+	}
+	public String getNote() {
+		return note;
+	}
+	public void setNote(String note) {
+		this.note = note;
 	}
 }

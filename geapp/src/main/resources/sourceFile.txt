@@ -1,116 +1,116 @@
-thin-skinned:permaloso
-touchy:permaloso
-tough:difficile
-bright:intelligente
-sharp:acuto
-weakness:punto debole
-deserve:meritare
-overwhelming: travolgente
-engrossed: assorto
-stopover: scalo
-aisle: corridoio
-fare: tariffa
-inn: locanda
-gist: nocciolo
-layover: scalo
-rough: bozza
-polite: gentile
-bothers: fastidio
-forthcoming: onesto
-allowance: indennità
-own: proprio
-attorney: procuratore
-abroad: estero
-lawsuit: causa 
-fine: multa
-fine: bene
-forbidden: vietato
-sentenced: condannato
-theft: furto
-trial :processo
-trial: prova
-charged: caricato
-embezzling: appropriazione indebita
-allegation: accusa
-settled : sistemato
-fair: giusto
-waste: spreco
-fees: spesa
-lead: condurre
-idiom: proverbio
-misunderstading: incomprensione
-blackboard: lavagna
-wisdom: insegnamento
-knowledge: conoscenza
-unknown: sconosciuto
-foreign: straniero
-revoke : ripensare
-evoke: evocare
-sprawling : diffusione
-skyscraper: grattacielo
-gripping: presa
-gritty : grintosa
-plumbing system: sistema idraulico
-sink: lavello
-merrier: più allegro
-hook: gancio
-Whenever : ogni volta
-blanket: coperta
-quest: ricerca
-clue : traccia
-belief: fede
-excerpt : estratto
-hanging: sospeso
-hanging out: uscire
-hanging on: appeso
-hanging around: in giro
-it'd: sarebbe
-Lately: ultimamente
-shelves : scaffali
-i recall : ricordo
-lack: mancanza
-fond: affettuoso
-platitude: banalità
-sympathy: compassione
-elders: anziani
-bow: inchino
-quite : abbastanza
-overly : eccessivamente
-somewhat: piuttosto
-promptness :prontezza
-upset: irritato
-turmoil: agitazione
-plunge : tuffo
-faltered: esitato
-broader: piu ampia
-disruption : interruzione
-curb: frenare
-spat : battibecco
-supplies: forniture
-shaky : traballante
-foldable : pieghevole
-disease : malattia
-illness: malattia
-outbreaks: focolai
-led : guidato
-remarks : osservazioni
-draw: disegnare
-slammed : sbattuto
-threatened : minacciati
-urged: sollecitato
-aim: scopo
-took aim: preso di mira
-aided: assistita
-relies upon: si basa su
-cowardice : codardia
-freshman : matricola
-many of whom blamed : molti dei quali incolpati
-decried: denunciato
-assailing : assaltare
-hurdle: ostacolo
-roof: tetto
-scrap: rottame
-surcharge: supplemento
-tent: tenda
-untimely: prematuro
-towards: verso
+thin-skinned:permaloso#
+touchy:permaloso#
+tough:difficile#
+bright:intelligente#
+sharp:acuto#
+weakness:punto debole#
+deserve:meritare#
+overwhelming: travolgente#
+engrossed: assorto#
+stopover: scalo#
+aisle: corridoio#
+fare: tariffa#
+inn: locanda#
+gist: nocciolo#
+layover: scalo#
+rough: bozza#
+polite: gentile#
+bothers: fastidio#
+forthcoming: onesto#
+allowance: indennità#
+own: proprio#
+attorney: procuratore#
+abroad: estero#
+lawsuit: causa #
+fine: multa#
+fine: bene#
+forbidden: vietato#
+sentenced: condannato#
+theft: furto#
+trial :processo#
+trial: prova#
+charged: caricato#
+embezzling: appropriazione indebita#
+allegation: accusa#
+settled : sistemato#
+fair: giusto#
+waste: spreco#
+fees: spesa#
+lead: condurre#
+idiom: proverbio#
+misunderstading: incomprensione#
+blackboard: lavagna#
+wisdom: insegnamento#
+knowledge: conoscenza#
+unknown: sconosciuto#
+foreign: straniero#
+revoke : ripensare#
+evoke: evocare#
+sprawling : diffusione#
+skyscraper: grattacielo#
+gripping: presa#
+gritty : grintosa#
+plumbing system: sistema idraulico#
+sink: lavello#
+merrier: più allegro#
+hook: gancio#
+Whenever : ogni volta#
+blanket: coperta#
+quest: ricerca#
+clue : traccia#
+belief: fede#
+excerpt : estratto#
+hanging: sospeso#
+hanging out: uscire#
+hanging on: appeso#
+hanging around: in giro#
+it'd: sarebbe#
+lately: ultimamente#
+shelves : scaffali#
+i recall : ricordo#
+lack: mancanza#
+fond: affettuoso#
+platitude: banalità#
+sympathy: compassione#
+elders: anziani#
+bow: inchino#
+quite : abbastanza#
+overly : eccessivamente#
+somewhat: piuttosto#
+promptness :prontezza#
+upset: irritato#
+turmoil: agitazione#
+plunge : tuffo#
+faltered: esitato#
+broader: piu ampia#
+disruption : interruzione#
+curb: frenare#
+spat : battibecco#
+supplies: forniture#
+shaky : traballante#
+foldable : pieghevole#
+disease : malattia#
+illness: malattia#
+outbreaks: focolai#
+led : guidato#
+remarks : osservazioni#
+draw: disegnare#
+slammed : sbattuto#
+threatened : minacciati#
+urged: sollecitato#
+aim: scopo#
+took aim: preso di mira#
+aided: assistita#
+relies upon: si basa su#
+cowardice : codardia#
+freshman : matricola#
+many of whom blamed : molti dei quali incolpati#
+decried: denunciato#
+assailing : assaltare#
+hurdle: ostacolo#
+roof: tetto#
+scrap: rottame#
+surcharge: supplemento#
+tent: tenda#
+untimely: prematuro#
+towards: verso#

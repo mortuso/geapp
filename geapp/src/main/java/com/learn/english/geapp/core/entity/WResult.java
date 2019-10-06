@@ -1,4 +1,4 @@
-package com.learn.english.geapp.core;
+package com.learn.english.geapp.core.entity;
 
 import java.io.Serializable;
 import java.math.BigDecimal;

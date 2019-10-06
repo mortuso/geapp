@@ -1,10 +1,12 @@
-package com.learn.english.geapp.core;
+package com.learn.english.geapp.core.repository;
 
 import java.util.List;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
+
+import com.learn.english.geapp.core.entity.Word;
 
 @Repository
 public interface WordsRepository extends JpaRepository<Word, String> {

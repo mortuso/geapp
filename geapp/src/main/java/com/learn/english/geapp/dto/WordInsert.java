@@ -1,23 +1,29 @@
 package com.learn.english.geapp.dto;
 
-import java.util.Map;
+import java.util.List;
 
 /**
  * Lista di elementi legati al suo significato
  */
 public class WordInsert {
-
-	private Map<String,String> input;
 	
-	public WordInsert(Map<String,String> input) {
+	private List<WordDTO> input;
+	
+	public WordInsert(List<WordDTO> input) {
+		super();
 		this.input = input;
 	}
+	
+	public WordInsert() {
+	
+	}
 
-	public Map<String, String> getInput() {
+	public List<WordDTO> getInput() {
 		return input;
 	}
 
-	public void setInput(Map<String, String> input) {
+	public void setInput(List<WordDTO> input) {
 		this.input = input;
 	}
+	
 }

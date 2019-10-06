@@ -1,4 +1,4 @@
-package com.learn.english.geapp.core;
+package com.learn.english.geapp.core.entity;
 
 import java.io.Serializable;
 import javax.persistence.*;
@@ -18,30 +18,41 @@ public class Word implements Serializable {
 	private String wName;
 
 	private String meaning;
+	
+	private String note;
 
 	public Word() {
 	}
 
-	public Word(String wName, String meaning) {
+	public Word(String wName, String meaning, String note) {
 		super();
 		this.wName = wName;
 		this.meaning = meaning;
+		this.note = note;
 	}
 
-	public String getWName() {
-		return this.wName;
+	public String getwName() {
+		return wName;
 	}
 
-	public void setWName(String wName) {
+	public void setwName(String wName) {
 		this.wName = wName;
 	}
 
 	public String getMeaning() {
-		return this.meaning;
+		return meaning;
 	}
 
 	public void setMeaning(String meaning) {
 		this.meaning = meaning;
+	}
+
+	public String getNote() {
+		return note;
+	}
+
+	public void setNote(String note) {
+		this.note = note;
 	}
 
 }
